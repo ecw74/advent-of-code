@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "advent-of-code-2023"
+version = "0.1.0"
+description = ""
+authors = ["Enrico Walther (IAV) <enrico.walther@iav.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.2"
+z3-solver = "^4.12.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
