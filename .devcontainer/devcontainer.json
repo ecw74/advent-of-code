@@ -1,0 +1,7 @@
+{
+  "name": "idf-rust",
+  "image": "ecw74/idf-rust:1.81.0-bookworm",
+  containerEnv: {
+    "PATH": "/usr/local/cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+  }
+}
